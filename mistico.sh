@@ -18,6 +18,6 @@ case $opcion in
 1) bash nmapt.sh ;;
 2) bash nmapv.sh ;;
 3) bash nmapr.sh ;;
-4) bash atqb.sh ;;
+4) python3 atacb.py ;;
 x) exit
 esac
