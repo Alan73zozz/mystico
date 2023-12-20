@@ -8,6 +8,7 @@ echo  "_____________________"
 echo "1. escaneo de nmap"
 echo "2. versiones de puertos"
 echo "3. escaneo de red"
+echo "4. ataque de fuerza bruta"
 echo "x. salir"
 echo "__________"
 
@@ -17,5 +18,6 @@ case $opcion in
 1) bash nmapt.sh ;;
 2) bash nmapv.sh ;;
 3) bash nmapr.sh ;;
+4) bash atqb.sh ;;
 x) exit
 esac
